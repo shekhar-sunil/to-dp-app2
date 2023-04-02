@@ -1,0 +1,88 @@
+.container
+{
+    background-color:chartreuse;
+    border:5px solid red;
+    
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+    position: relative;
+    border-radius: 10px;
+    position: relative;
+    overflow:auto;
+}
+
+input[type="text"]
+{
+
+    width: 250px;
+    height: 40px;
+    position:absolute;
+    color:black;
+    border-radius: 5px;
+    border:2px solid grooved;
+    background-color:springgreen;
+    left:0px;
+    top:10px;
+}
+.add
+{
+    
+    position: absolute;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    width: 250px;
+    height: 40px;
+}
+.to-do-style
+{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    width:250px;
+    height: auto;
+    background-color:lightgreen;
+    color:black;
+    border:2px solid black;
+    position: relative;
+    text-align: left;
+    border-radius: 5px;
+
+}
+.btnsubmit
+{
+    position: absolute;
+    border:2px solid green;
+    border-radius: 2px;
+    color:white;
+    background-color:black;
+    right: 10px;
+}
+.addbtn
+{
+    position: absolute;
+    border:2px solid green;
+    border-radius: 2px;
+    color:white;
+    background-color:blue;
+    right: 0px;
+}
+.heading
+{
+
+    color:darkred;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-variant: small-caps;
+}
+
+
+
